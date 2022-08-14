@@ -19,6 +19,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
 /* :root {
   font-family: "proxima-regular" Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
