@@ -1,6 +1,6 @@
 .video {
   width: 100%;
-  height: 500px;
+  height: 100%;
 }
 
 .player {
@@ -15,4 +15,26 @@
   position: absolute;
   inset: 0;
   margin: auto;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.actions {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.action {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
 }
