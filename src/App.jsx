@@ -1,12 +1,15 @@
-import React, { useState } from "react";
-import "./App.css";
+import React from 'react'
+import './App.css'
+import FeedVideos from './components/FeedVideos'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <main>Tik Tok clone</main>
+    <div className='App'>
+      <main>
+        <FeedVideos />
+      </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
